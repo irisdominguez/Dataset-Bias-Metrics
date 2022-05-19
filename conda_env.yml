@@ -1,0 +1,26 @@
+name: conda_env
+channels:
+  - pytorch
+  - fastai
+  - anaconda
+  - defaults
+  - conda-forge
+dependencies:
+  - cudatoolkit=10.2
+  - fastai::fastai
+  - ffmpeg
+  - ipykernel
+  - ipywidgets
+  - jupyterlab_widgets
+  - matplotlib
+  - numpy
+  - conda-forge::opencv
+  - pandas
+  - python
+  - pytorch-gpu
+  - scikit-learn
+  - torchvision
+  - seaborn
+  - dill
+  - cloudpickle
+
