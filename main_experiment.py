@@ -9,15 +9,20 @@ import sklearn
 from fer import *
 
 import sys
- 
+
+
+### Uncomment the following lines to perform the experiments for Affectnet
 EXP = 'exp_affectnet'
 base_datasets = ['affectnet']
 vocab=['angry', 'contempt', 'disgust', 'fear', 'happy', 'neutral', 'sad', 'surprise']
 
-EXP = 'exp_ferplus'
-base_datasets = ['ferplus']
-vocab=['angry', 'disgust', 'fear', 'happy', 'neutral', 'sad', 'surprise']
+### Uncomment the following lines to perform the experiments for FER+
+# EXP = 'exp_ferplus'
+# base_datasets = ['ferplus']
+# vocab=['angry', 'disgust', 'fear', 'happy', 'neutral', 'sad', 'surprise']
 
+
+### Comment the following lines for live logs in the terminal
 f = open(f'{LOGS_PATH}/{EXP}.log', 'a')
 sys.stdout = f
 sys.stderr = f
