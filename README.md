@@ -2,8 +2,9 @@
 
 Metric system for bias analysis in Facial Expression Recognition datasets
 
-The details of this work are detailed in a paper, soon to be published in arXiv.
+The details of this work are detailed in [our paper](https://arxiv.org/abs/2205.10049)
 
+I. Dominguez-Catena, D. Paternain, and M. Galar, “Assessing Demographic Bias Transfer from Dataset to Model: A Case Study in Facial Expression Recognition,” arXiv, arXiv:2205.10049, May 2022. doi: 10.48550/arXiv.2205.10049.
 
 ## Requirements
 
